@@ -52,6 +52,12 @@ public class Main {
 		numbers1=numbers2;
 		numbers2[0]=100;
 		
+		String x="a";
+		String y="b";
+		x=y;
+		y="15";
+		System.out.println(x);
+		
 	}
 
 }
