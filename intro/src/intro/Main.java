@@ -23,9 +23,6 @@ public class Main {
 			System.out.println("Show dollar equality image");
 		}
 		
-		
-		
-		
 		String[] credits=new String[] {
 				"Fast credit",
 				"Happy retired credit",
