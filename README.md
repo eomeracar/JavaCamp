@@ -5,6 +5,11 @@
 InstructorService instructorService = new InstructorService();
 ```
 ###Get All Instructors
+```Java
+	for (Instructor instructor : instructorService.getAll()) {
+			System.out.println(instructor.getId()+" "+instructor.getName()+" "+instructor.getSurname());
+		}
+    ```
 
 ### Result : 
 -------------------------
