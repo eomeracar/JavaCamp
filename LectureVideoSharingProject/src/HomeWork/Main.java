@@ -1,13 +1,10 @@
 package HomeWork;
 
+
 public class Main {
 
 	public static void main(String[] args) {
-		
-		Student student1=new Student(1,"Ömer","Acar","test1@gmail.com","test1");
-		Student student2=new Student(2,"Karcan","Özbal","test2@gmail.com","test2");
-		Student student3=new Student(3,"Uğur","Yıldız","test3@gmail.com","test3");
-		//Instructor instructor1 =new Instructor(1,"Engin","Demiroğ","test4@gmail.com","test4");
+		Instructor instructor1 =new Instructor(1,"Engin","Demiroğ","test4@gmail.com","test4");
 		Instructor instructor2 = new Instructor();
 		instructor2.setId(2);
 		instructor2.setName("Tuğrul");
@@ -22,11 +19,33 @@ public class Main {
 		lecture2.setId(2);
 		lecture2.setName("Java");
 		lecture2.setDescription("Java OOP3");
+		InstructorService instructorService=new InstructorService();
+		instructorService.add(instructor1);
+		instructorService.add(instructor2);
+		
+		System.out.println("-------------------------------");
+		for (Instructor instructor : instructorService.getAll()) {
+			System.out.println(instructor.getId()+" "+instructor.getName()+" "+instructor.getSurname());
+		}
+		instructor2.setName("test");
+		instructorService.update(instructor2);
+		
+		System.out.println("-------------------------------");
+		for (Instructor instructor : instructorService.getAll()) {
+			System.out.println(instructor.getId()+" "+instructor.getName()+" "+instructor.getSurname());
+		}
+		
+		Student student1=new Student(1,"Ömer","Acar","test1@gmail.com","test1");
+		Student student2=new Student(2,"Karcan","Özbal","test2@gmail.com","test2");
+		Student student3=new Student(3,"Uğur","Yıldız","test3@gmail.com","test3");
+		Student student4=new Student(4,"John","Unexpected","test4@gmail.com","test4");
+		
 		
 		StudentService studentService=new StudentService();
 		studentService.add(student1);
 		studentService.add(student2);
 		studentService.add(student3);
+		studentService.add(student4);
 		System.out.println("-------------------------------");
 		for (Student student : studentService.getAll()) {
 			System.out.println(student.getId()+" "+student.getName()+" "+student.getSurname()+" "+student.getMail());
@@ -38,16 +57,17 @@ public class Main {
 		lectureService.add(lecture2);
 		System.out.println("-------------------------------");
 		for (Lecture lecture : lectureService.getAll()) {
-			System.out.println(lecture.getId()+" "+lecture.getName()+" "+lecture.getDescription());
+			System.out.println(lecture.getId()+" "+lecture.getName()+" --> "+lecture.getDescription());
 		}
 		System.out.println("-------------------------------");
 		lectureService.delete(lecture2);
 		System.out.println("-------------------------------");
 		for (Lecture lecture : lectureService.getAll()) {
-			System.out.println(lecture.getId()+" "+lecture.getName()+" "+lecture.getDescription());
+			System.out.println(lecture.getId()+" "+lecture.getName()+" --> "+lecture.getDescription());
 		}
 		
 		
+	
 	}
 
 }

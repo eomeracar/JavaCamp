@@ -8,6 +8,7 @@ import java.util.ArrayList;
 public class StudentService {
 	
 	private ArrayList<Student> students;
+	private ArrayList<Student> tempStudents;
 	
 	public StudentService()
 	{

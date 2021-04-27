@@ -26,6 +26,10 @@ public class LectureService {
 		this.lectures.set(indexLecture, lecture);
 		System.out.println("Lecture is updated");
 	}
+	public Lecture getById(int id)
+	{
+		return lectures.stream().filter(l -> l.getId() == id).findFirst().get();
+	}
 	public ArrayList<Lecture> getAll(){
 		return getLectures();
 	}
