@@ -6,7 +6,7 @@ InstructorService instructorService = new InstructorService();
 ```
 ###Get All Instructors
 
-Result
+### Result : 
 -------------------------
 
 |id|name|surname|
