@@ -19,7 +19,7 @@ public class InstructorService {
 	public void update(Instructor instructor)
 	{
 		int indexInstructor=this.instructors.indexOf(instructor);
-		System.out.println("Instructor "+instructor.getName()+ " " +instructor.getSurname() +" is updated");
+		System.out.println("Instructor Id= "+instructor.getId() +" is updated");
 		this.instructors.set(indexInstructor, instructor);
 		
 	}
