@@ -1,6 +1,6 @@
 # JavaCamp 
 
-#LectureVideoSharingProject
+# LectureVideoSharingProject
 
 # Instructor Service
 ```Java
