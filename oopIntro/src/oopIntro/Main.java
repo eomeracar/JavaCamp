@@ -41,13 +41,15 @@ public class Main {
 		
 		
 		Category category1= new Category();
-		category1.id=1;
-		category1.name="Computer";
+		category1.setId(1);
+		category1.setName("İçecek");
 		
 		Category category2= new Category();
-		category2.id=2;
-		category2.name="Home/Garden";
+		category2.setId(2);
+		category2.setName("Yiyecek");
 		
+		System.out.println(category1.getName());
+		System.out.println(category2.getName());
 		
 		ProductService productService=new ProductService();
 		productService.addToCart(product1);
