@@ -35,7 +35,7 @@ public class Main {
 		Student student3=new Student(3,"Uğur","Yıldız","test3@gmail.com","test3");
 		Student student4=new Student(4,"John","Unexpected","test4@gmail.com","test4");
 		
-		
+		/*git bash test*/
 		StudentService studentService=new StudentService();
 		studentService.add(student1);
 		studentService.add(student2);
