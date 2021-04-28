@@ -32,7 +32,7 @@ System.out.println(tempInstructor.getId()+" "+tempInstructor.getName()+" "+tempI
 -------------------------
 
 |id|name|surname|mail|
-|--|---|---|
+|---|---|---|---|
 |1|Engin|Demiroğ|test4@gmail.com|
 
 
