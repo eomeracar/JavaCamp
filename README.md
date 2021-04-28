@@ -45,4 +45,28 @@ for (Student student : studentService.getAll()) {
 
 -------------------------
 
+# Lecture Service
+```Java
+LectureService lectureService=new LectureService();
+```
+### Get All Lectures : 
+```Java
+for (Lecture lecture : lectureService.getAll()) {
+	System.out.println(lecture.getId()+" "+lecture.getName()+" --> "+lecture.getDescription());
+}
+ ```
+
+### Result : 
+-------------------------
+
+|id|name|description|
+|--|---|---|
+|1|C#|C# OOP2|
+|2|Java|Java OOP3|
+
+-------------------------
+
+
+
+
 
