@@ -22,6 +22,21 @@ for (Instructor instructor : instructorService.getAll()) {
 -------------------------
 
 
+### Get Instructors by Id :
+ : 
+```Java
+Instructor tempInstructor=instructorService.getById(1);
+System.out.println(tempInstructor.getId()+" "+tempInstructor.getName()+" "+tempInstructor.getSurname()+" "+tempInstructor.getMail());
+ ```
+
+### Result : 
+-------------------------
+
+|id|name|surname|mail|
+|--|---|---|
+|1|Engin|Demiroğ|test4@gmail.com|
+
+
 # Student Service
 ```Java
 StudentService studentService=new StudentService();
