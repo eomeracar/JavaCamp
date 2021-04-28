@@ -10,15 +10,9 @@ public class Main {
 		instructor2.setName("Tuğrul");
 		instructor2.setSurname("Bayrak");
 		instructor2.setMail("test");
-		Lecture lecture1=new Lecture();
-		lecture1.setId(1);
-		lecture1.setName("C#");
-		lecture1.setDescription("C# OOP2");
 		
-		Lecture lecture2=new Lecture();
-		lecture2.setId(2);
-		lecture2.setName("Java");
-		lecture2.setDescription("Java OOP3");
+		
+		
 		InstructorService instructorService=new InstructorService();
 		instructorService.add(instructor1);
 		instructorService.add(instructor2);
@@ -51,6 +45,19 @@ public class Main {
 			System.out.println(student.getId()+" "+student.getName()+" "+student.getSurname()+" "+student.getMail());
 		}
 		System.out.println("-------------------------------");
+		
+		
+		Lecture lecture1=new Lecture();
+		lecture1.setId(1);
+		lecture1.setName("C#");
+		lecture1.setDescription("C# OOP2");
+		
+		Lecture lecture2=new Lecture();
+		lecture2.setId(2);
+		lecture2.setName("Java");
+		lecture2.setDescription("Java OOP3");
+		
+		
 		LectureService lectureService=new LectureService();
 		
 		lectureService.add(lecture1);
