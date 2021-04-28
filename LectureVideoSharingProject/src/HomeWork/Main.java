@@ -11,24 +11,25 @@ public class Main {
 		instructor2.setSurname("Bayrak");
 		instructor2.setMail("test");
 		
-		
-		
 		InstructorService instructorService=new InstructorService();
 		instructorService.add(instructor1);
 		instructorService.add(instructor2);
 		
-		System.out.println("-------------------------------");
 		for (Instructor instructor : instructorService.getAll()) {
 			System.out.println(instructor.getId()+" "+instructor.getName()+" "+instructor.getSurname());
 		}
 		instructor2.setName("test");
 		instructorService.update(instructor2);
 		
-		System.out.println("-------------------------------");
 		for (Instructor instructor : instructorService.getAll()) {
 			System.out.println(instructor.getId()+" "+instructor.getName()+" "+instructor.getSurname());
 		}
 		
+		Instructor tempInstructor=instructorService.getById(1);
+		System.out.println(tempInstructor.getId()+" "+tempInstructor.getName()+" "+tempInstructor.getSurname()+" "+tempInstructor.getMail());
+		
+		System.out.println("-------------------------------");
+
 		Student student1=new Student(1,"Ömer","Acar","test1@gmail.com","test1");
 		Student student2=new Student(2,"Karcan","Özbal","test2@gmail.com","test2");
 		Student student3=new Student(3,"Uğur","Yıldız","test3@gmail.com","test3");
@@ -40,12 +41,12 @@ public class Main {
 		studentService.add(student2);
 		studentService.add(student3);
 		studentService.add(student4);
-		System.out.println("-------------------------------");
+		
 		for (Student student : studentService.getAll()) {
 			System.out.println(student.getId()+" "+student.getName()+" "+student.getSurname()+" "+student.getMail());
 		}
-		System.out.println("-------------------------------");
 		
+		System.out.println("-------------------------------");
 		
 		Lecture lecture1=new Lecture();
 		lecture1.setId(1);
@@ -62,18 +63,18 @@ public class Main {
 		
 		lectureService.add(lecture1);
 		lectureService.add(lecture2);
-		System.out.println("-------------------------------");
+		
 		for (Lecture lecture : lectureService.getAll()) {
 			System.out.println(lecture.getId()+" "+lecture.getName()+" --> "+lecture.getDescription());
 		}
-		System.out.println("-------------------------------");
+		
 		lectureService.delete(lecture2);
-		System.out.println("-------------------------------");
+		
 		for (Lecture lecture : lectureService.getAll()) {
 			System.out.println(lecture.getId()+" "+lecture.getName()+" --> "+lecture.getDescription());
 		}
 		
-		
+	
 	
 	}
 

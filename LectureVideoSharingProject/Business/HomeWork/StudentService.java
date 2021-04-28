@@ -8,7 +8,6 @@ import java.util.ArrayList;
 public class StudentService {
 	
 	private ArrayList<Student> students;
-	private ArrayList<Student> tempStudents;
 	
 	public StudentService()
 	{
@@ -42,5 +41,10 @@ public class StudentService {
 	{
 		return getStudents();
 	}
+	public Student getById (int id)
+	{
+		return students.stream().filter(i -> i.getId()==id).findFirst().get();
+	}
+	
 
 }
