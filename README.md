@@ -58,7 +58,7 @@ for (Student student : studentService.getAll()) {
 |1|Ömer|Acar|test1@gmail.com|test1|
 |2|Karcan|Özbal|test2@gmail.com|test2|
 |3|Uğur|Yıldız|test3@gmail.com|test3|
-|4|Uğur|Yıldız|test3@gmail.com|test3|
+|4|John|Unexpected|test4@gmail.com|test4|
 
 -------------------------
 
