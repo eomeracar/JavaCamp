@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/org.eclipse.osgi/15/0/.cp/libs/feed4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/org.eclipse.osgi/15/0/.cp/libs/nekohtml.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/org.eclipse.osgi/15/0/.cp/libs/xercesImpl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/org.eclipse.osgi/15/0/.cp/libs/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/org.eclipse.osgi/15/0/.cp/libs/xml-apis.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

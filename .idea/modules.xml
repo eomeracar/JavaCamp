@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LectureVideoSharingProject/LectureVideoSharingProject.iml" filepath="$PROJECT_DIR$/LectureVideoSharingProject/LectureVideoSharingProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/inheritance/inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inheritance2/inheritance2.iml" filepath="$PROJECT_DIR$/inheritance2/inheritance2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intro/intro.iml" filepath="$PROJECT_DIR$/intro/intro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopIntro/oopIntro.iml" filepath="$PROJECT_DIR$/oopIntro/oopIntro.iml" />
+    </modules>
+  </component>
+</project>

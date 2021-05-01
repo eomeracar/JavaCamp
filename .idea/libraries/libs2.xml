@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/org.eclipse.osgi/9/0/.cp/libs/org.eclipse.lsp4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/org.eclipse.osgi/9/0/.cp/libs/commons-lang3-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/org.eclipse.osgi/9/0/.cp/libs/genuitec-gson-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/org.eclipse.osgi/9/0/.cp/libs/genuitec-jsoup-1.9.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/org.eclipse.osgi/9/0/.cp/libs/genuitec-remark-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
