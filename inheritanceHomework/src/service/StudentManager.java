@@ -15,6 +15,6 @@ public class StudentManager extends UserManager {
 	public void add(User user) {
 		_student=(Student)user;
 		System.out.println(_student.getName()+" IS ADDED!"
-				+"\nAlso,the student number is "+_student.getStudentNo());
+					+"\nAlso,the student number is "+_student.getStudentNo());
 	}
 }
