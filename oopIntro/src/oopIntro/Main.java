@@ -38,6 +38,7 @@ public class Main {
 		}
 		
 		System.out.println(products.length);
+		System.out.println(product4.getUnitPriceAfterDiscount());
 		
 		
 		Category category1= new Category();

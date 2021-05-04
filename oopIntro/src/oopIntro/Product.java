@@ -7,6 +7,7 @@ public class Product {
 	private double unitPrice;
 	private String detail;
 	private double discount;
+	@SuppressWarnings("unused")
 	private double unitPriceAfterDiscount;
 	
 	public Product(){
