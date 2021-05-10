@@ -1,3 +1,3 @@
-## ER Şeması
+## ER Diagram
 <img src="hrmsEntityRelationshipDiagram.png">
  
